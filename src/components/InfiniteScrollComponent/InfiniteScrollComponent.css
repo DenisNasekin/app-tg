@@ -1,0 +1,48 @@
+.sectionInfiniteScroll {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.sectionInfiniteScroll__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sectionInfiniteScroll__content {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.sectionInfiniteScroll__article {
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #111;
+    word-break: break-all;
+    text-align: center;
+}
+
+.sectionInfiniteScroll__button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #111;
+    cursor: pointer;
+}
+
+.sectionInfiniteScroll__button:hover {
+    background: #111;
+    color: #fff;
+    margin-bottom: 20px;
+}
