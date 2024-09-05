@@ -12,7 +12,7 @@ import Menu from '../Menu/Menu';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/app-tg'>
         <Routes>
           <Route path="/" element={<WebSocketScreen/>}/>
           <Route path="weather" element={<WeatherScreen/>}/>
