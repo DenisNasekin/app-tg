@@ -8,8 +8,8 @@ const Menu: React.FC = () => {
     return (
         <section className="sectionMenu">
             <Button text="Home" link="/"/>
-            <Button text="Weather" link="/weather"/>
-            <Button text="Article" link="/article"/>
+            <Button text="Weather" link="#/weather"/>
+            <Button text="Article" link="#/article"/>
         </section>      
     );
 }
