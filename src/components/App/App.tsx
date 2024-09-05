@@ -12,6 +12,7 @@ import Menu from '../Menu/Menu';
 function App() {
   return (
     <div className="App">
+      <h1>Привет, мир!</h1>
       <HashRouter basename='/app-tg'>
         <Routes>
           <Route path="/" element={<WebSocketScreen/>}/>

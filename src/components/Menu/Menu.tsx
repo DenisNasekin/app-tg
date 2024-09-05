@@ -9,7 +9,7 @@ const Menu: React.FC = () => {
         <section className="sectionMenu">
             <Button text="Home" link="/"/>
             <Button text="Weather" link="/weather"/>
-            <Button text="Article" link="/Article"/>
+            <Button text="Article" link="/article"/>
         </section>      
     );
 }
